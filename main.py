@@ -46,8 +46,8 @@ async def main():
             self.body = [Vector2(6, 9), Vector2(5, 9), Vector2(4, 9)]
             self.direction = Vector2(1, 0)
             self.add_segment = False
-            self.eat_sound = pygame.mixer.Sound("Sounds/eat.mp3")
-            self.wall_hit_sound = pygame.mixer.Sound("Sounds/wall.mp3")
+            self.eat_sound = pygame.mixer.Sound("Sounds/eat.ogg")
+            self.wall_hit_sound = pygame.mixer.Sound("Sounds/wall.ogg")
 
         def draw(self):
             for segment in self.body:
