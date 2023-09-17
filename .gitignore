@@ -1,0 +1,15 @@
+*.pyc
+*.egg-info
+dist/
+TODO.md
+__pycache__
+
+# Documentation source is built in docsrc.
+docsrc/_build
+docsrc/reference/generated
+
+examples/_old
+
+*-pygbag.???
+/build
+/dist
